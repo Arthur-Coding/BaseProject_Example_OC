@@ -136,7 +136,6 @@
 				069D5D061E680AFE004CEFF6 /* AppDelegate.h */,
 				069D5D071E680AFE004CEFF6 /* AppDelegate.m */,
 				062FA8231E7633B000B84E45 /* PrefixHeader.pch */,
-				069D5D111E680AFE004CEFF6 /* LaunchScreen.storyboard */,
 			);
 			name = Project_Initialization;
 			sourceTree = "<group>";
@@ -151,18 +150,22 @@
 		064E67832011897700DB81D9 /* Example */ = {
 			isa = PBXGroup;
 			children = (
-				064E6784201189AB00DB81D9 /* Module_Interfaces */,
+				064E6784201189AB00DB81D9 /* Module_Interface */,
+				064E67AD2011CC2700DB81D9 /* Module_Data */,
+				064E67AE2011CC3700DB81D9 /* Module_Views */,
+				064E67AF2011CC4000DB81D9 /* Module_ViewModel */,
+				064E67B02011CC4800DB81D9 /* Module_ViewControllers */,
 			);
 			name = Example;
 			sourceTree = "<group>";
 		};
-		064E6784201189AB00DB81D9 /* Module_Interfaces */ = {
+		064E6784201189AB00DB81D9 /* Module_Interface */ = {
 			isa = PBXGroup;
 			children = (
 				06352ED8200332A700D17DFD /* LSRouter+ExampleModule.h */,
 				06352ED9200332A700D17DFD /* LSRouter+ExampleModule.m */,
 			);
-			name = Module_Interfaces;
+			name = Module_Interface;
 			sourceTree = "<group>";
 		};
 		064E678820118FF100DB81D9 /* Initialization_Tools */ = {
@@ -172,6 +175,42 @@
 				06352E7D1FFF948400D17DFD /* LSRouter+TimeCategory.m */,
 			);
 			name = Initialization_Tools;
+			sourceTree = "<group>";
+		};
+		064E67902011BBBD00DB81D9 /* Project_Launch */ = {
+			isa = PBXGroup;
+			children = (
+				069D5D111E680AFE004CEFF6 /* LaunchScreen.storyboard */,
+			);
+			name = Project_Launch;
+			sourceTree = "<group>";
+		};
+		064E67AD2011CC2700DB81D9 /* Module_Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Module_Data;
+			sourceTree = "<group>";
+		};
+		064E67AE2011CC3700DB81D9 /* Module_Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Module_Views;
+			sourceTree = "<group>";
+		};
+		064E67AF2011CC4000DB81D9 /* Module_ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Module_ViewModel;
+			sourceTree = "<group>";
+		};
+		064E67B02011CC4800DB81D9 /* Module_ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Module_ViewControllers;
 			sourceTree = "<group>";
 		};
 		06779B6E2005DFEC003115CB /* Project_Resources */ = {
@@ -234,6 +273,7 @@
 			isa = PBXGroup;
 			children = (
 				064E67812011873100DB81D9 /* Project_Initialization */,
+				064E67902011BBBD00DB81D9 /* Project_Launch */,
 				06352E7F1FFF94D900D17DFD /* Project_Images */,
 				06779B6E2005DFEC003115CB /* Project_Resources */,
 				068DBBB61E8A4A5800C3125C /* Project_SimulatedData */,
