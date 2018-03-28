@@ -113,9 +113,9 @@
 		064E67812011873100DB81D9 /* Project_Initialization */ = {
 			isa = PBXGroup;
 			children = (
+				062FA8231E7633B000B84E45 /* PrefixHeader.pch */,
 				069D5D061E680AFE004CEFF6 /* AppDelegate.h */,
 				069D5D071E680AFE004CEFF6 /* AppDelegate.m */,
-				062FA8231E7633B000B84E45 /* PrefixHeader.pch */,
 			);
 			name = Project_Initialization;
 			sourceTree = "<group>";
